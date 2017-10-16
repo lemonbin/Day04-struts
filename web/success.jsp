@@ -35,6 +35,7 @@
 <s:property value="#parameters.username"/>
 
 <hr>
+//
 <h1>先通过set标签更改username常量的值, 再调用property获取一下它的值
 没有定义scope时, 默认认为是request域中</h1>
 <s:set var="username" value="'拉拉'" />
